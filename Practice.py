@@ -1,4 +1,5 @@
 #OOPS
+#Base class
 class Player:
     def __init__(self, name='abc', age=0):
         if age > 18:
@@ -35,7 +36,7 @@ class Archer(Player):
     def attack(self):
         print(f'{self.name} attacking with {self.arrows} arrows')
 
-
+#Derived class
 class Ranger(Player):
     def __init__(self, name, power):
         self.name = name
