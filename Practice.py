@@ -42,6 +42,7 @@ class Ranger(Player):
     def __init__(self, name, power):
         self.name = name
         self.power = power
+        print("Ranger class __init")
 
     def attack(self):
         print(f'{self.name} is attacking with {self.power} power')
