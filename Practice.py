@@ -28,7 +28,7 @@ class Player:
     def add_num_static(n1, n2):
         return n1 + n2
 
-
+#Archer class
 class Archer(Player):
     def __init__(self, name, arrows):
         self.name = name
